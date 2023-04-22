@@ -222,13 +222,13 @@ a{
     font-size: .9rem;
 }
 .tweet{
-    border:2px solid red;
+    /* border:2px solid red; */
     border-bottom:2px solid var(--light-grey)
 }
 .small-profile{
     display: flex;
     align-items: center;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 @media screen and (max-width:320px) {
     .container{
