@@ -25,8 +25,8 @@ body{
     color:var(--lighter)
 }
 .container{
-    width:37.5rem;
-    height: 300vh;
+    width:39rem;
+    /* height: 300vh; */
     margin: 0 auto;
      border:7px solid white; 
     /* background-color:var(--light-black) ; */
@@ -34,25 +34,25 @@ body{
     display: flex;
     flex-direction: column;
     /* padding-left:0.5rem; */
+    padding: 0.5rem;
 } 
-header{
-    
-    height: 5rem;
-    color:var(--lighter);
-    position: fixed;
-    width: inherit;
-    
-}
+
 .title{
     display: flex;
     justify-content: flex-start;
     background-color:var(--light-black);
     width: 100%;
     /* height: 20rem; */
+    /* border: 2px solid red; */
     
 }
+.name-tweet{
+    width: 70%;
+    /* border:2px solid yellow; */
+}
+
 .title svg{
- width: 50px;
+ width: 40px;
  height: 2rem;
 
 }
@@ -64,8 +64,10 @@ header{
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    /* border: 2px solid red; */
     width: 100%;
-    height:85vh;
+    height: 30vh;
+    /* height:85vh; */
     margin-top:0.12rem;
     /* border:2px solid greenyellow; */
     /* align-items: center; */
@@ -74,8 +76,8 @@ header{
 }
 .background-image img{
     width: 100%;
-    height: 70%;
-    /* border: 2px solid yellow; */
+    height: 100%;
+     /* border: 2px solid yellow;  */
 }
 /* .following-wrapper{
     border: 5px solid red; 
@@ -86,20 +88,29 @@ header{
 } */
 .profile-pic{
     width:17%;
-    height: 6.5rem;
-    margin-top:.4rem;
+    height: 6.25rem;
+    /* border: 2px solid blue; */
+    margin-top: -3.25rem;
+    
+    /* margin-top:.4rem; */
     /* border: 2px solid seagreen; */
+    
    
 }
 .profile-pic img{
     width: 120px;
     height: 115px;
     border-radius:50%;
+    
+    
 }
 .contact-icons{
      width: 90%;
      display: flex; 
-    justify-content:flex-end;
+     height: 6rem;
+     /* border:2px solid yellow;  */
+     justify-content:space-between;
+     height: 3.5rem;
     
     
     
@@ -112,9 +123,9 @@ header{
 .contact-icons svg{
     width: 2.0rem;
     height:2.0rem;
-    margin: 0 .5rem;
+    /* margin: 0 .5rem; */
     
-    /* border: 2px solid white; */
+    /* border: 2px solid white;  */
 
 }
 .follow-btn{
@@ -131,7 +142,7 @@ header{
 }
 .user-name{
    display: flex;
-   /* border: 2px solid white; */
+   border: 2px solid white; 
    color: var(--lighter);
    flex-direction: column;
    margin-top: 1.5rem; 
@@ -168,19 +179,23 @@ span{
     height: 4rem;
     display: flex;
     justify-content: flex start;
+    justify-content: stretch;
+    gap:5rem;
 
 }
 .join-details1 svg{
-    width: .9rem;
-    height:01rem;
+    width: 2rem;
+    height:1.5rem;
     /* display: inline-block; */
 }
-.join-details1 p{
-     display: inline; 
-}
+/* .join-details1 p{
+     display: flex; 
+     
+} */
 .join-details1-w{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    
    
     
 }
@@ -232,6 +247,26 @@ a{
     display: flex;
     align-items: center;
     /* border:2px solid red; */
+}
+.twitter-svgs{
+    display: flex;
+    /* border:2px solid red; */
+    width:100%;
+    height:1.7rem;
+    justify-content: space-around;
+}
+.twitter-svg1{
+    display: flex;
+    justify-content: center;
+    width:1.5rem;
+    align-items: center;
+    /* outline: none; */
+    height: 1.5rem;
+    background-color: none;
+    
+}
+.twitter-svg1 p{
+    font-size: .7rem;
 }
 @media screen and (max-width:320px) {
     .container{
