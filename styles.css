@@ -28,7 +28,7 @@ body{
     width:39rem;
     /* height: 300vh; */
     margin: 0 auto;
-     border:7px solid white; 
+     /* border:7px solid white;  */
     /* background-color:var(--light-black) ; */
     background-color: black;
     display: flex;
